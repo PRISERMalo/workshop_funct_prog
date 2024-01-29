@@ -115,7 +115,7 @@ One more thing for _tek2_ students : you could follow my steps below, or you cou
 ## Callback functions, sort and cool things
 ### Step 5 - Predicates
 - A predicate is a (like in maths) function that takes parameters and return a boolean.
-- Create a function that check if the string is a operator.
+- Create a function that check if the string is an operator.
 - Create a function that check if the string is a number. \
 For this function, don't be sophisticated. Use `isDigit`.
 

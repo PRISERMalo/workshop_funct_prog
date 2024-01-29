@@ -6,8 +6,8 @@ main :: IO()
 
 main = do
     x<-getLine
-    --read x
-    --words x
-       -- | {head tail x == '+'} = addition head x tail tail x
+    read x
+    words x
+       | head (tail x) == '+' = addition head x tail (tail x)
     print (words x)
     print "ending instruction"
