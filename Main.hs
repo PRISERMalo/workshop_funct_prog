@@ -1,8 +1,7 @@
 import System.Environment
-import System.exit
-import Opertations
+import System.Exit
 
 main :: IO()
 
 main = do
-    getline 
+    print "HelloWorld"
